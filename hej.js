@@ -1,0 +1,1 @@
+console.log("Dette skrives ud i terminalen");
