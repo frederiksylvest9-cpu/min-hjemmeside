@@ -42,3 +42,11 @@ body{background-color: #df6969; font-family: 'Poppins', sans-serif; margin: 5em;
   padding: 20px;
   transform: rotateY(180deg);
 }
+@media (max-width: 768px) {
+  .flip-card {
+    position: static !important;   /* fjerner den faste venstre/højre placering */
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;             /* centrerer og stabler dem i stedet */
+  }
+}
